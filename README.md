@@ -7,4 +7,8 @@ We introduced independent component analysis (ICA) into single cell clustering t
 ## Usage
 For usage examples and guided walkthroughs, check the `vignettes` directory of the repo. 
 
-* [Integrating cell line Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/ICA_tutoral.html)
+* [Integrating Cell Line Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/ICAnet_tutorial.html)
+
+* [Integrating Multiple Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/Pancreas_Tutorial.html)
+
+* [Using ICAnetTF to identify TF-regulons in Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/MouseBrain_TF.html)
