@@ -24,5 +24,7 @@ install.packages("~/ICAnet_0.0.0.9000.tar.gz",repos=NULL, type="source",INSTALL_
 ```
 ## Dependency
 Packages from Bioconductor: AUCell, RcisTarget, MineICA
+
 Packages from CRAN: Seurat, cluster, coop, fastICA, ica, igraph, isva, pheatmap, rARPACK, networkD3
+
 ICAnet required PPI network or cisTarget feather file as input.
