@@ -12,3 +12,15 @@ For usage examples and guided walkthroughs, check the `vignettes` directory of t
 * [Integrating Multiple Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/Pancreas_Tutorial.html)
 
 * [Using ICAnetTF to identify TF-regulons in Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/MouseBrain_TF.html)
+
+## Installation
+
+1. Install [R](https://www.r-project.org/)  (>= 3.4)
+2. Install [Rstudio](https://www.rstudio.com/products/rstudio/download/) (recommended)
+3. Download ICAnet_0.0.0.9000.tar.gz
+3. Use the following R commands.
+```
+install.packages("D:/MCTA/ICAnet_0.0.0.9000.tar.gz",repos=NULL, type="source",INSTALL_opts=c("--no-multiarch"))
+```
+## Dependency
+ICAnet required PPI network or cisTarget feather file as input.
