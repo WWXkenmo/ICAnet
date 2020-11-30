@@ -47,8 +47,8 @@ ICAnet required PPI network or cisTarget feather file as input.
 The PPI network could be downloaded through getPPI_String/getPPI_Biogrid in RSCORE
 ```
 library(RSCORE)
-PPI.network_STRING <- getPPI_String(data, species=9606) (PPI network of STRING Database)
-PPI.network_BioGrid <- getPPI_Biogrid(data, species=9606) (PPI network of BioGRID Database)
+PPI.network_STRING <- getPPI_String(data, species=9606) #(PPI network of STRING Database)
+PPI.network_BioGrid <- getPPI_Biogrid(data, species=9606) #(PPI network of BioGRID Database)
 ```
 In which the 9606 is the NCBI taxon-Id for Homo sapiens, for the taxon-id of other species, see https://string-db.org/cgi/input.pl?input_page_active_form=organisms
 ### 2.TF-motif & motif ranking (Required by ICAnetTF)
