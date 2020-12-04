@@ -181,7 +181,7 @@ RunICAnetTF <- function(obj,ica.filter, W.top.TFs=2.5, W.top.genes=2.5, Motif_Ne
 	module_gene <- motif_list <- NULL; for(i in 1:length(module_infor)){module_gene <- c(module_gene, module_infor[[i]][1]); motif_list <- c(motif_list, module_infor[[i]][2])}
 	module_gene <- strsplit(module_gene,split="[-]")
 	gene <- moduleSize <- NULL; for(i in 1:length(module_gene)){gene <- c(gene, module_gene[[i]][4]);moduleSize <- c(moduleSize, module_gene[[i]][3])}
-	metadata <- cbind(gene, moduleSize, TF_list, metadata)
+	metadata <- cbind(gene, moduleSize, motif_list, metadata)
 	significance <- as.numeric(as.matrix(metadata[,5]))
 
     # loading subnetwork activity matrix
