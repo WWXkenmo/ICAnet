@@ -9,7 +9,7 @@ For usage examples and guided walkthroughs, check the `vignettes` directory of t
 
 * [Integrating Cell Line Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/ICAnet_tutorial.html)
 
-* [Integrating Multiple Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/Pancreas_Tutorial.html)
+* [Integrating Multiple Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/Pancreas_Tutorial2.html)
 
 * [Using ICAnetTF to identify TF-regulons in Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/MouseBrain_TF.html)
 
