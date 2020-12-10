@@ -7,7 +7,7 @@ We introduced independent component analysis (ICA) into single cell clustering t
 ## Usage
 For usage examples and guided walkthroughs, check the `vignettes` directory of the repo. 
 
-* [Integrating Cell Line Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/ICAnet_tutorial.html)
+* [Integrating Cell Line Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/ICAnet_tutorial2.html)
 
 * [Integrating Multiple Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/Pancreas_Tutorial2.html)
 
