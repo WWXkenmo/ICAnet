@@ -20,7 +20,7 @@ For usage examples and guided walkthroughs, check the `vignettes` directory of t
 3. Download ICAnet_0.0.0.9000.tar.gz
 3. Use the following R commands.
 ```
-install.packages("~/ICAnet_0.0.0.9000.tar.gz",repos=NULL, type="source",INSTALL_opts=c("--no-multiarch"))
+install.packages("~/ICAnet.tar.gz",repos=NULL, type="source",INSTALL_opts=c("--no-multiarch"))
 ```
 ## Dependency
 Packages from Bioconductor: AUCell, RcisTarget, MineICA, STRINGdb, isva, clusterProfiler(required by RSCORE), genesorteR(required by RSCORE)
