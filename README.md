@@ -17,7 +17,7 @@ For usage examples and guided walkthroughs, check the `vignettes` directory of t
 
 1. Install [R](https://www.r-project.org/)  (>= 3.5)
 2. Install [Rstudio](https://www.rstudio.com/products/rstudio/download/) (recommended)
-3. Download ICAnet_0.0.0.9000.tar.gz
+3. Download ICAnet.tar.gz
 3. Use the following R commands.
 ```
 install.packages("~/ICAnet.tar.gz",repos=NULL, type="source",INSTALL_opts=c("--no-multiarch"))
