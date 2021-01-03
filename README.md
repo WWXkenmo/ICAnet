@@ -33,7 +33,7 @@ BiocManager::install("mahmoudibrahim/genesorteR")
 ```
 Packages from CRAN: Seurat, cluster, coop, fastICA, ica, igraph, isva, pheatmap, rARPACK, networkD3, doMC,propr(required by RSCORE), network(required by RSCORE), intergraph(required by RSCORE)
 ```
-install.packages(c("Seurat", "cluster", "coop", "fastICA", "ica", "igraph", "isva", "pheatmap", "rARPACK", "networkD3"))
+install.packages(c("Seurat", "cluster", "coop", "fastICA", "ica", "doParallel","igraph", "isva", "pheatmap", "rARPACK", "networkD3"))
 install.packages("doMC", repos="http://R-Forge.R-project.org")
 install.packages(c("propr", "network","intergraph"))
 ```
