@@ -62,7 +62,7 @@ wget https://resources.aertslab.org/cistarget/databases/mus_musculus/mm9/refseq_
 ### 1.Integrating Cell Line Single-Cell RNA-seq Dataset
 The normalized single cell cell line dataset could be downloaded from 
 https://github.com/WWXkenmo/MouseGerm/blob/master/cell_line_exp.RDS, also, the annotation of this dataset could be downloaded from 
-https://github.com/WWXkenmo/MouseGerm/blob/master/ID_for_cell_line.txt
+https://github.com/WWXkenmo/MouseGerm/blob/master/ID_for_cell_line.txt . Meanwhile, the PPI used to perform ICAnet could be downloaded from https://github.com/WWXkenmo/ICAnet_external_data/blob/master/PPI_for_cell_line.RDS
 ### 2.Integrating Multiple Single-Cell RNA-seq Dataset
 Three pancreas dataset could be downloaded from https://hemberg-lab.github.io/scRNA.seq.datasets/
 Including baron-human.rds, muraro.rds and segerstolpe.rds
