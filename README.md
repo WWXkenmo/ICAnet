@@ -51,6 +51,7 @@ PPI.network_STRING <- getPPI_String(data, species=9606) #(PPI network of STRING 
 PPI.network_BioGrid <- getPPI_Biogrid(data, species=9606) #(PPI network of BioGRID Database)
 ```
 In which the 9606 is the NCBI taxon-Id for Homo sapiens, for the taxon-id of other species, see https://string-db.org/cgi/input.pl?input_page_active_form=organisms
+Meanwhile, the data could be Seurat object or matrix with gene symbol as row names.
 ### 2.TF-motif & motif ranking (Required by ICAnetTF)
 ICAnetTF required TF-motif binding information and motif gene annotation matrix (.feather), both provided by RcisTarget, the user could download feather file from  https://resources.aertslab.org/cistarget/ with following commond
 ```
