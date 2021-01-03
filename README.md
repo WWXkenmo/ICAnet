@@ -67,4 +67,4 @@ https://github.com/WWXkenmo/MouseGerm/blob/master/ID_for_cell_line.txt . Meanwhi
 Three pancreas dataset could be downloaded from https://hemberg-lab.github.io/scRNA.seq.datasets/
 Including baron-human.rds, muraro.rds and segerstolpe.rds
 ### 3.Using ICAnetTF to identify TF-regulons in Single-Cell RNA-seq Dataset
-The mouse brain gene expression dataset could be downloaded from GEO:GSE60361, and the motif annotation dataset (feather file) could be downloaded from https://resources.aertslab.org/cistarget/, meanwhile, the cell annotation dataset could be downloaded from https://github.com/WWXkenmo/MouseGerm/blob/master/mouse_brain_cell_annotation.csv
+The mouse brain gene expression dataset could be downloaded from GEO:GSE60361, and the motif annotation dataset (feather file) could be downloaded from https://resources.aertslab.org/cistarget/, meanwhile, the cell annotation dataset could be downloaded from https://github.com/WWXkenmo/ICAnet_external_data/blob/master/mouse_brain_cell_annotation.csv
