@@ -15,7 +15,7 @@ For usage examples and guided walkthroughs, check the `vignettes` directory of t
 
 ## Installation
 
-1. Install [R](https://www.r-project.org/)  (>= 3.5)
+1. Install [R](https://www.r-project.org/)  (>= 3.6)
 2. Install [Rstudio](https://www.rstudio.com/products/rstudio/download/) (recommended)
 3. Install all the packages required (see Dependency session)
 4. Download ICAnet.tar.gz
