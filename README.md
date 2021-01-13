@@ -39,7 +39,7 @@ devtools::install_github("wycwycpku/RSCORE")
 4. Download ICAnet.tar.gz
 5. Use the following R commands
 ```
-install.packages("~/ICAnet.tar.gz",repos=NULL, type="source",INSTALL_opts=c("--no-multiarch"))
+install.packages("ICAnet.tar.gz",repos=NULL, type="source",INSTALL_opts=c("--no-multiarch"))
 ```
 ## Network Dependency
 ICAnet required PPI network or cisTarget feather file as input.
