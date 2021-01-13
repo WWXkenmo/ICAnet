@@ -17,7 +17,7 @@ Packages from Bioconductor: AUCell, RcisTarget, MineICA, STRINGdb, isva, cluster
 ```
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 ## Required
-BiocManager::install(c("AUCell", "STRINGdb", "MineICA","RcisTarget","isva","clusterProfiler"))
+BiocManager::install(c("AUCell", "STRINGdb", "MineICA","RcisTarget","isva","clusterProfiler","remotes"))
 BiocManager::install("mahmoudibrahim/genesorteR") 
 ```
 Packages from CRAN: Seurat, cluster, coop, fastICA, ica, igraph, isva, pheatmap, rARPACK, networkD3, doMC,propr(required by RSCORE), network(required by RSCORE), intergraph(required by RSCORE)
