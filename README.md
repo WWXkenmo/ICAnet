@@ -12,17 +12,6 @@ For usage examples and guided walkthroughs, check the `vignettes` directory of t
 * [Integrating Multiple Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/Pancreas_Tutorial2.html)
 
 * [Using ICAnetTF to identify TF-regulons in Single-Cell RNA-seq Dataset](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/MouseBrain_TF2.html)
-
-## Installation
-
-1. Install [R](https://www.r-project.org/)  (>= 3.6)
-2. Install [Rstudio](https://www.rstudio.com/products/rstudio/download/) (recommended)
-3. Install all the packages required (see Dependency session)
-4. Download ICAnet.tar.gz
-5. Use the following R commands.
-```
-install.packages("~/ICAnet.tar.gz",repos=NULL, type="source",INSTALL_opts=c("--no-multiarch"))
-```
 ## Dependency
 Packages from Bioconductor: AUCell, RcisTarget, MineICA, STRINGdb, isva, clusterProfiler(required by RSCORE), genesorteR(required by RSCORE)
 ```
@@ -42,6 +31,16 @@ Packages from Github: RSCORE
 if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
 devtools::install_github("wycwycpku/RSCORE")
 ```
+## Installation
+
+1. Install [R](https://www.r-project.org/)  (>= 3.6)
+2. Install [Rstudio](https://www.rstudio.com/products/rstudio/download/) (recommended)
+3. Install all the packages required (see Dependency session)
+4. Download ICAnet.tar.gz
+5. Use the following R commands
+```
+install.packages("~/ICAnet.tar.gz",repos=NULL, type="source",INSTALL_opts=c("--no-multiarch"))
+```
 ## Network Dependency
 ICAnet required PPI network or cisTarget feather file as input.
 ### 1.PPI network (Required by ICAnet)
@@ -52,7 +51,7 @@ PPI.network_STRING <- getPPI_String(data, species=9606) #(PPI network of STRING 
 PPI.network_BioGrid <- getPPI_Biogrid(data, species=9606) #(PPI network of BioGRID Database)
 ```
 In which the 9606 is the NCBI taxon-Id for Homo sapiens, for the taxon-id of other species, see https://string-db.org/cgi/input.pl?input_page_active_form=organisms
-Meanwhile, the data could be Seurat object or matrix with gene symbol as row names.
+. Meanwhile, the data could be Seurat object or matrix with gene symbol as row names.
 ### 2.TF-motif & motif ranking (Required by ICAnetTF)
 ICAnetTF required TF-motif binding information and motif gene annotation matrix (.feather), both provided by RcisTarget, the user could download feather file from  https://resources.aertslab.org/cistarget/ with following commond
 ```
