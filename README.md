@@ -41,6 +41,7 @@ devtools::install_github("wycwycpku/RSCORE")
 ```
 install.packages("ICAnet.tar.gz",repos=NULL, type="source",INSTALL_opts=c("--no-multiarch"))
 ```
+### We note that this installation workflow is successfully implemented on the machine with fresh enviroments (R version 4.0.3, Ubuntu 18.04.5 LTS). If you can't install our package, please raise the question in "issues" with no hesitate! 
 ## Network Dependency
 ICAnet required PPI network or cisTarget feather file as input.
 ### 1.PPI network (Required by ICAnet)
@@ -67,3 +68,4 @@ Three pancreas dataset could be downloaded from https://hemberg-lab.github.io/sc
 Including baron-human.rds, muraro.rds and segerstolpe.rds
 ### 3.Using ICAnetTF to identify TF-regulons in Single-Cell RNA-seq Dataset
 The mouse brain gene expression dataset could be downloaded from GEO:GSE60361, and the motif annotation dataset (feather file) could be downloaded from https://resources.aertslab.org/cistarget/, meanwhile, the cell annotation dataset could be downloaded from https://github.com/WWXkenmo/ICAnet_external_data/blob/master/mouse_brain_cell_annotation.csv
+
