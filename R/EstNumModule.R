@@ -24,7 +24,7 @@ EstNumModule <- function(data.m, default=TRUE, svd.num=NULL){
     ns <- ncol(data.m);
     lambdaMAX <- sigma2*(1+1/Q + 2*sqrt(1/Q));
     lambdaMIN <- sigma2*(1+1/Q - 2*sqrt(1/Q));
-    C <- coop::tpcor(M)
+    C <- coop::pcor(t(M))
 
 	if(default){
     if(ncol(data.m)>50){
