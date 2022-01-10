@@ -1,7 +1,7 @@
 # News
 Suggestions to users:
 1. The two.stage parameter (two.stage = FALSE) in ICAcomputing should not be used when your data size is small ( < 5000 cells)
-2. Determine the number of independent components for each batch of data could follow the strategies of deteriming the number of principal components. Once specific, just return the numeric vector into the parameter nc.vec. For instance, if we want to extract ICs from seurat object all.data which have three batches(batch 1, batch 2, and batch 3) with a,b,c independent components, through following command:
+2. Determining the number of independent components for each batch of data could follow the strategies of deteriming the number of principal components. Once specific, just return the numeric vector into the parameter nc.vec. For instance, if we want to extract ICs from seurat object all.data which have three batches(batch 1, batch 2, and batch 3) with a,b,c independent components, through following command:
 ```
 ica <- ICAcomputing(obj = all.data,RMT=TRUE,ICA.type = "JADE",two.stage=FALSE,nc.vec=c(a,b,c))
 ```
