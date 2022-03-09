@@ -2,8 +2,7 @@
 % Please edit documentation in R/CrossBatchGrouping.R
 \name{CrossBatchGrouping}
 \alias{CrossBatchGrouping}
-\title{Title Cross Batch ICA Source Component Grouping
-Group the expression programs (source components) generated from different batch of scRNA-seq dataset through PAM clustering.}
+\title{Cross Batch ICA Source Component Grouping}
 \usage{
 CrossBatchGrouping(
   ica.pooling,
@@ -37,6 +36,5 @@ CrossBatchGrouping(
 a list object which containing the filtered ica-components matrix.
 }
 \description{
-Title Cross Batch ICA Source Component Grouping
 Group the expression programs (source components) generated from different batch of scRNA-seq dataset through PAM clustering.
 }

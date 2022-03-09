@@ -1,5 +1,5 @@
-#' Title Estimate the number of components
-#' an Random Matrix theory based component number estimation
+#' @title Estimate the number of components
+#' @description an Random Matrix theory based component number estimation
 #'
 #' @param data.m a matrix object which need to be estimated its number of components
 #' @param default boolean variable to determine whether restrict the maximum number of decomposed components

@@ -2,7 +2,7 @@
 % Please edit documentation in R/ModuleSignificanceTest.R
 \name{ModuleSignificanceTest}
 \alias{ModuleSignificanceTest}
-\title{Title Module Significance Test}
+\title{Module Significance Test}
 \usage{
 ModuleSignificanceTest(Data, statl.v, geneSets, nMC, verbose = FALSE)
 }
@@ -21,5 +21,5 @@ ModuleSignificanceTest(Data, statl.v, geneSets, nMC, verbose = FALSE)
 a integer value which indicating the significance of modules
 }
 \description{
-Title Module Significance Test
+Module Significance Test
 }

@@ -2,8 +2,7 @@
 % Please edit documentation in R/ICAnetTF.R
 \name{TF_Net_Generate}
 \alias{TF_Net_Generate}
-\title{Title Convert feather file into motif-gene boolean network
-This function is provided for convert feather file into motif-gene boolean network, the feather file containing the motif binding informtion for human/mouse/fly species, the files could be downloaded from cisTarget databases https://resources.aertslab.org/cistarget/}
+\title{Convert feather file into motif-gene boolean network}
 \usage{
 TF_Net_Generate(feather.readPath, cutoff = 1)
 }
@@ -16,6 +15,5 @@ TF_Net_Generate(feather.readPath, cutoff = 1)
 a matrix object which containing the boolean network of TF binding motif-gene
 }
 \description{
-Title Convert feather file into motif-gene boolean network
 This function is provided for convert feather file into motif-gene boolean network, the feather file containing the motif binding informtion for human/mouse/fly species, the files could be downloaded from cisTarget databases https://resources.aertslab.org/cistarget/
 }

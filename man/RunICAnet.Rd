@@ -2,8 +2,7 @@
 % Please edit documentation in R/RunICAnet.R
 \name{RunICAnet}
 \alias{RunICAnet}
-\title{Title Using independent components to construct weighted molecular network to detect function module for single cell clustering
-ICAnet used independent components to construct weighted PPI, and running walk-trap algorthm to detect module on it. The resulted modules are used for the following analysis}
+\title{Using independent components to construct weighted molecular network to detect function module for single cell clustering}
 \usage{
 RunICAnet(
   obj,
@@ -48,6 +47,5 @@ RunICAnet(
 a Seurat object which contain the "IcaNet" assay
 }
 \description{
-Title Using independent components to construct weighted molecular network to detect function module for single cell clustering
 ICAnet used independent components to construct weighted PPI, and running walk-trap algorthm to detect module on it. The resulted modules are used for the following analysis
 }

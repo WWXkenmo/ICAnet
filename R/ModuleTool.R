@@ -1,6 +1,6 @@
 ###Run Cell Type Specific Modules
-#' Title Module markers of identity classes
-#' Finds markers (differentially activated modules) for identity classes
+#' @title Module markers of identity classes
+#' @description Finds markers (differentially activated modules) for identity classes
 #'
 #' @param obj a Seurat object
 #' @param identity the identity id
@@ -22,7 +22,7 @@ diffmodule
 }
 
 ###plot molecular network
-#' Title Plot interactive molecular network
+#' @title Plot interactive molecular network
 #'
 #' @param gene_sets the module needed to plot the interaction network
 #' @param network the molecular network
@@ -37,6 +37,8 @@ diffmodule
 #' @return a interactive plot of molecular network
 #' @export
 #' @importFrom networkD3 forceNetwork
+#' @importFrom networkD3 JS
+#' @importFrom Matrix summary
 #' @examples
 plot_module <- function(gene_sets, network,ica.score, nodeSize="ica.score",fontSize = 15, charge=-100,width=500, height=500,size_scale=1){
 
@@ -59,13 +61,13 @@ subnet <- as.data.frame(subnet)
 forceNetwork(Links = subnet,Nodes = NodeInfor,Source="Source",Target="Target",
                        Value="Value",NodeID="name",Group = "group",Nodesize="size",
                        opacityNoHover = 2,opacity=2,fontFamily="Arial",fontSize = fontSize,charge = charge,
-                       radiusCalculation = networkD3::JS("d.nodesize"),
-                       colourScale = networkD3::JS("d3.scaleOrdinal(d3.schemeCategory10);"),width = width,
+                       radiusCalculation = JS("d.nodesize"),
+                       colourScale = JS("d3.scaleOrdinal(d3.schemeCategory10);"),width = width,
                        height = height)
 }
 
 
-#' Title Using SVD to decompose the module activity matrix
+#' @title Using SVD to decompose the module activity matrix
 #'
 #' @param obj a Seurat object
 #' @param nu the number of singular vector

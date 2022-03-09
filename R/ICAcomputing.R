@@ -1,6 +1,6 @@
-#' Title Using Independent Component Analysis to decompose scRNA-seq gene expression matrix
+#' @title Using Independent Component Analysis to decompose scRNA-seq gene expression matrix
 #'
-#' We introduced independent component analysis (ICA) into single cell clustering to decompose the gene expression matrix into a number of independent components. Each independent component was characterized by a co-expression pattern and was associated with certain meaningful biological pathway.
+#' @description We introduced independent component analysis (ICA) into single cell clustering to decompose the gene expression matrix into a number of independent components. Each independent component was characterized by a co-expression pattern and was associated with certain meaningful biological pathway.
 #'
 #' @param obj a seurat object which contain the gene expression matrix of all batches, meanwhile it also contain the *batch* ID which document the batch label information
 #' @param center a boolean variable to determine whether perform centralization to each batch
@@ -86,7 +86,7 @@ ICAcomputing <- function(obj, center=TRUE,scale=FALSE,RMT=TRUE, nc.vec=NULL, nc.
                     if(num == 0) num <- num+1;
                     print(paste('RMT estimate',num,'expression programm',sep=" "))
 					if(two.stage){
-					  print("Running 2th-step of RMT...(Recommend for integrating different platform)")
+					  print("Running 2th-step of RMT...")
 					  if(two.stage.ICA=="FastICA"){
 					  res <- fastICA(M, num);
 					  mixture <- as.matrix(res$A)

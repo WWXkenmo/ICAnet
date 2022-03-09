@@ -1,12 +1,12 @@
-#' Title Convert feather file into motif-gene boolean network
-#' This function is provided for convert feather file into motif-gene boolean network, the feather file containing the motif binding informtion for human/mouse/fly species, the files could be downloaded from cisTarget databases https://resources.aertslab.org/cistarget/
+#' @title  Convert feather file into motif-gene boolean network
+#' @description This function is provided for convert feather file into motif-gene boolean network, the feather file containing the motif binding informtion for human/mouse/fly species, the files could be downloaded from cisTarget databases https://resources.aertslab.org/cistarget/
 #'
 #' @param feather.readPath a character value to indicate the path which saved the feather file
 #' @param cutoff a cutoff to determine how to filter the unwanted Motif-gene links (default: 1)
 #'
 #' @return a matrix object which containing the boolean network of TF binding motif-gene
 #' @export
-#' @importFrom  RcisTarget importRanking
+#' @importFrom  RcisTarget importRankings
 #' @examples
 TF_Net_Generate <- function(feather.readPath,cutoff=1){
 cat('Loading TF,motif annotation dataset...')
@@ -43,8 +43,8 @@ cat('\nDone')
 motif_gene_net
 }
 
-#' Title Using independent components to perform TF-target enrichment to detect TF-regulon for single cell clustering
-#' ICAnet used independent components to perform TF-target enrichment test, and select significant TF-regulons for the following analysis
+#' @title Using independent components to perform TF-target enrichment to detect TF-regulon for single cell clustering
+#' @description ICAnet used independent components to perform TF-target enrichment test, and select significant TF-regulons for the following analysis
 #'
 #' @param obj a Seurat object
 #' @param ica.filter the filtered/unfiltered ica-components set

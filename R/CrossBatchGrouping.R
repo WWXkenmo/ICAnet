@@ -1,5 +1,5 @@
-#' Title Cross Batch ICA Source Component Grouping
-#' Group the expression programs (source components) generated from different batch of scRNA-seq dataset through PAM clustering.
+#' @title Cross Batch ICA Source Component Grouping
+#' @description Group the expression programs (source components) generated from different batch of scRNA-seq dataset through PAM clustering.
 #'
 #' @param ica.pooling A matrix object that including all ICA source components generate from *ICAcomputing*,
 #' @param k.max the maximum clusters number of ica-components (default: the number of ica-components - 1)

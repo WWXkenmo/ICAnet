@@ -1,4 +1,4 @@
-#' Title Module Significance Test
+#' @title Module Significance Test
 #'
 #' @param Data a Z-score transformed matrix
 #' @param statl.v the ica-components

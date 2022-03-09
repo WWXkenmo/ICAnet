@@ -2,8 +2,7 @@
 % Please edit documentation in R/EstNumModule.R
 \name{EstNumModule}
 \alias{EstNumModule}
-\title{Title Estimate the number of components
-an Random Matrix theory based component number estimation}
+\title{Estimate the number of components}
 \usage{
 EstNumModule(data.m, default = TRUE, svd.num = NULL)
 }
@@ -18,6 +17,5 @@ EstNumModule(data.m, default = TRUE, svd.num = NULL)
 a integer value which indicating the estimated number of ica components
 }
 \description{
-Title Estimate the number of components
 an Random Matrix theory based component number estimation
 }

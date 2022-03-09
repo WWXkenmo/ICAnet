@@ -2,7 +2,7 @@
 % Please edit documentation in R/ModuleTool.R
 \name{plot_module}
 \alias{plot_module}
-\title{Title Plot interactive molecular network}
+\title{Plot interactive molecular network}
 \usage{
 plot_module(
   gene_sets,
@@ -39,5 +39,5 @@ plot_module(
 a interactive plot of molecular network
 }
 \description{
-Title Plot interactive molecular network
+Plot interactive molecular network
 }

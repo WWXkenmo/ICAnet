@@ -8,23 +8,15 @@ Authors@R:
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+        license
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.0
-Imports: 
-    AUCell,
-    Seurat,
-    cluster,
-    coop,
-    fastICA,
-    ica,
-    igraph,
-    isva,
-    pheatmap,
-    rARPACK,
-    networkD3,
-    RcisTarget,
-    MineICA
+RoxygenNote: 7.1.1
+Imports: AUCell, Seurat, cluster, coop, fastICA, ica, igraph, isva,
+        pheatmap, rARPACK, networkD3, RcisTarget, MineICA, Matrix
+NeedsCompilation: no
+Packaged: 2021-01-03 07:41:41 UTC; WeiXu Wang
+Author: First Last [aut, cre] (<https://orcid.org/YOUR-ORCID-ID>)
+Maintainer: First Last <first.last@example.com>

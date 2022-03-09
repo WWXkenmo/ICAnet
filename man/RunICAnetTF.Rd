@@ -2,8 +2,7 @@
 % Please edit documentation in R/ICAnetTF.R
 \name{RunICAnetTF}
 \alias{RunICAnetTF}
-\title{Title Using independent components to perform TF-target enrichment to detect TF-regulon for single cell clustering
-ICAnet used independent components to perform TF-target enrichment test, and select significant TF-regulons for the following analysis}
+\title{Using independent components to perform TF-target enrichment to detect TF-regulon for single cell clustering}
 \usage{
 RunICAnetTF(
   obj,
@@ -49,6 +48,5 @@ RunICAnetTF(
 a Seurat object which contain the "IcaNet_TF" assay
 }
 \description{
-Title Using independent components to perform TF-target enrichment to detect TF-regulon for single cell clustering
 ICAnet used independent components to perform TF-target enrichment test, and select significant TF-regulons for the following analysis
 }

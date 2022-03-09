@@ -2,7 +2,7 @@
 % Please edit documentation in R/ICAcomputing.R
 \name{ICAcomputing}
 \alias{ICAcomputing}
-\title{Title Using Independent Component Analysis to decompose scRNA-seq gene expression matrix}
+\title{Using Independent Component Analysis to decompose scRNA-seq gene expression matrix}
 \usage{
 ICAcomputing(
   obj,

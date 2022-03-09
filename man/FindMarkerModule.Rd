@@ -2,8 +2,7 @@
 % Please edit documentation in R/ModuleTool.R
 \name{FindMarkerModule}
 \alias{FindMarkerModule}
-\title{Title Module markers of identity classes
-Finds markers (differentially activated modules) for identity classes}
+\title{Module markers of identity classes}
 \usage{
 FindMarkerModule(
   obj,
@@ -31,6 +30,5 @@ FindMarkerModule(
 a matrix object which containing the significant module information
 }
 \description{
-Title Module markers of identity classes
 Finds markers (differentially activated modules) for identity classes
 }

@@ -1,5 +1,5 @@
-#' Title Using independent components to construct weighted molecular network to detect function module for single cell clustering
-#' ICAnet used independent components to construct weighted PPI, and running walk-trap algorthm to detect module on it. The resulted modules are used for the following analysis
+#' @title  Using independent components to construct weighted molecular network to detect function module for single cell clustering
+#' @description ICAnet used independent components to construct weighted PPI, and running walk-trap algorthm to detect module on it. The resulted modules are used for the following analysis
 #'
 #' @param obj a Seurat object
 #' @param ica.filter the filtered/unfiltered ica-components set

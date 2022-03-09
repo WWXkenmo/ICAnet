@@ -2,7 +2,7 @@
 % Please edit documentation in R/ModuleTool.R
 \name{RunModuleSVD}
 \alias{RunModuleSVD}
-\title{Title Using SVD to decompose the module activity matrix}
+\title{Using SVD to decompose the module activity matrix}
 \usage{
 RunModuleSVD(obj, nu = 30, power = 0.5)
 }
@@ -17,5 +17,5 @@ RunModuleSVD(obj, nu = 30, power = 0.5)
 a Seurat object which containing reduction object "Module_SVD"
 }
 \description{
-Title Using SVD to decompose the module activity matrix
+Using SVD to decompose the module activity matrix
 }
