@@ -22,7 +22,7 @@
 #'
 #' @export
 #'
-SharedBasalComponents <- function(data_list,var.names,reduct.dim,center=TRUE,method = "irlba",fastICA=FALSE,corr="spearman",W.top=2.5){
+SharedBasalComponents <- function(data_list,var.names,reduct.dim,center=TRUE,method = "irlba",fastICA=FALSE,corr="spearman",W.top=2){
   ##scaling
   writeLines("Determine the reference atlas...")
   data_list <- ReferenceIntegrate(data_list,reduct.dim,var.names)
@@ -86,7 +86,7 @@ SharedBasalComponents <- function(data_list,var.names,reduct.dim,center=TRUE,met
   
   writeLines("Calculating basal components...")
   ica_pooling <- ICAcomputingCCA(whitenData,fastICA)
-  ica.filter <- CrossBatchGrouping(ica_pooling,cor = corr,Unique.Preservation = Unique.Preservation,W.top=W.top)
+  ica.filter <- CrossBatchGrouping(ica_pooling,cor = corr,Unique.Preservation = TRUE,W.top=W.top)
   basalcomp <- BasalComponents(ica_pooling,ica.filter$cluster)
   
   res <- list()

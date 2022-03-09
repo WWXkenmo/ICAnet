@@ -12,7 +12,7 @@ SharedBasalComponents(
   method = "irlba",
   fastICA = FALSE,
   corr = "spearman",
-  W.top = 2.5
+  W.top = 2
 )
 }
 \arguments{
