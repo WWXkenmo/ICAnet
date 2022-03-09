@@ -1,9 +1,17 @@
 # News
-Suggestions to users:
-1. The two.stage parameter (two.stage = FALSE) in ICAcomputing should not be used when your data size is small ( < 5000 cells)
-2. Determining the number of independent components for each batch of data could follow the strategies of deteriming the number of principal components. Once specific, just return the numeric vector into the parameter nc.vec. For instance, if we want to extract ICs from seurat object all.data which have three batches(batch 1, batch 2, and batch 3) with a,b,c independent components, through following command:
+Updated new function to perform more fast and robust basal components identification through one command
+```{r}
+list <- SharedBasalComponents(data_list,feature,reduct.dim = 30,W.top=2.5)
 ```
-ica <- ICAcomputing(obj = all.data,RMT=TRUE,ICA.type = "JADE",two.stage=FALSE,nc.vec=c(a,b,c))
+We applied the algorithm on pancreas islet datasets, compare with the raw ICAnet (first row), the newest version could capture more biological variation (second row)
+
+<img src="https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/pancreas_show.png" alt="pancreas" width="800" />
+
+* [Tutorial for ICAnet V2](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ICAnet/blob/master/vignettes/Using-LSI-loading-matrices-as-the-whiten-matrices-to-infer-shared-independent-components.html)
+
+Users could downloaded the newest version of ICAnet through
+```
+devtools::install_github("WWXKenmo/ICAnet")
 ```
 
 ## Independent Component Analysis based gene co-expression Network inference (ICAnet) to decipher functional modules for better single cell clustering and batch integration
