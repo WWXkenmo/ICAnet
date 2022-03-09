@@ -1,8 +1,8 @@
 getPPI_String <- function (object = NULL, species = 9606, score_threshold = 600, 
     save = FALSE) 
 {
-	require("data.table")
-	require("igraph")
+	suppressPackageStartupMessages(require("data.table"))
+	suppressPackageStartupMessages(require("igraph"))
 	
     linkFiles <- paste("https://stringdb-static.org/download/protein.links.v11.0/", 
         species, ".protein.links.v11.0.txt.gz", sep = "")
