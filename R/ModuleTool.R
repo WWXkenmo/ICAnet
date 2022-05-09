@@ -81,7 +81,7 @@ forceNetwork(Links = subnet,Nodes = NodeInfor,Source="Source",Target="Target",
 #' @importFrom Seurat GetAssayData
 #' @examples
 RunModuleSVD <- function(obj, nu=30,power=0.5){
-moduleExp_scale <- coop::tpcor(t(as.matrix(GetAssayData(obj))))
+moduleExp_scale <- cor(as.matrix(GetAssayData(obj)))
 svd.m <- rARPACK::svds(t(moduleExp_scale),k=nu,nu=nu)
 svd.reduction <- (svd.m$u) %*% diag((svd.m$d)^power)
 rownames(svd.reduction) <- colnames(moduleExp_scale)
